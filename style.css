@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#home {
+    background-color: black;
+    color: white;
+}
+
+#about {
+    background-color: lightblue;
+}
+
+#projects {
+    background-color: lightgreen;
+}
+
+#contact {
+    background-color: lightgray;
+}
